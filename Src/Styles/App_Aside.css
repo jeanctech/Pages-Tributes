@@ -1,0 +1,64 @@
+/** App_Aside */
+
+* {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    box-sizing: border-box;
+}
+
+#app-aside{
+    margin: 0rem;
+    padding: 1rem;
+    background-color: #dcdcdc;
+    color: #2b2929;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#aside_container_title{
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: #CBD8E6;
+    border: lavender solid 0.1rem;
+    color: #2b2929;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aside_container{
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: #CBD8E6;
+    border: lavender solid 0.1rem;
+    color: #2b2929;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+}
+
+#aside-img{
+    margin: 0.2rem;
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    border: #e6e6fa solid 0.2rem;
+}
+
+#aside_title{
+    margin: 0rem;
+    padding: 0.5rem;
+    background-color: #CBD8E6;
+    color: #160e32;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: baseline;
+}

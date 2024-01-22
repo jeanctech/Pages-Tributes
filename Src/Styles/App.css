@@ -1,0 +1,19 @@
+/** App */
+
+* {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    box-sizing: border-box;
+}
+
+#app-container{
+    margin: 0rem;
+    padding: 1rem;
+    background-color: #dcdcdc;
+    color: #2b2929;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

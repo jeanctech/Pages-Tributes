@@ -1,0 +1,42 @@
+/** App_Row */
+
+* {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    box-sizing: border-box;
+}
+
+#app-row{
+    margin: 0rem;
+    padding: 1rem;
+    background-color: #dcdcdc;
+    color: #2b2929;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#row_container{
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: #C7D5E0;
+    border: lavender solid 0.1rem;
+    color: #2b2929;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+}
+
+#row_title{
+    margin: 0rem;
+    padding: 0.5rem;
+    background-color: #C7D5E0;
+    color: #160e32;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: baseline;
+}
