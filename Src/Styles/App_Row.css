@@ -10,8 +10,8 @@
 #app-row{
     margin: 0rem;
     padding: 1rem;
-    background-color: #dcdcdc;
-    color: #2b2929;
+    background-color: #2C2F31;
+    color: #c1c1cf;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -21,9 +21,9 @@
 #row_container{
     margin: 0.5rem;
     padding: 1rem;
-    background-color: #ccd2d3;
-    border: lavender solid 0.1rem;
-    color: #2b2929;
+    background-color: #333739;
+    border: #3a3d3f solid 0.1rem;
+    color: #c1c1cf;
     display: flex;
     flex-direction: column;
     justify-content: baseline;
@@ -33,10 +33,47 @@
 #row_title{
     margin: 0rem;
     padding: 0.5rem;
-    background-color: #ccd2d3;
-    color: #160e32;
+    background-color: #333739;
+    color: #87cefa;
     display: flex;
     flex-direction: row;
     justify-content: baseline;
     align-items: baseline;
+}
+
+@media only screen and (min-width: 350px) {
+    /** App_Row */
+#app-row{
+    margin: 0rem;
+    padding: 1rem;
+    background-color: #2C2F31;
+    color: #c1c1cf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#row_container{
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: #333739;
+    border: #3a3d3f solid 0.1rem;
+    color: #c1c1cf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#row_title{
+    margin: 0rem;
+    padding: 0.5rem;
+    background-color: #333739;
+    color: #87cefa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 }

@@ -6,7 +6,7 @@ function App_Aside() {
     <>
       <div id="app-aside">
         <div id="aside_container_title">
-            <img src={Images} width={275} id="aside-img"></img>
+            <img src={Images} width={280} id="aside-img"></img>
             <h2 id="aside_title">Tim Berners-Lee</h2>
         </div>
         <div id="aside_container">

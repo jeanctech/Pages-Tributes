@@ -35,7 +35,7 @@ function App_Header() {
             </li>
             <li id="nav-li">
               <a href="" id="nav-a">
-                Conoce Mas
+                Conoce
               </a>
             </li>
           </ul>

@@ -1,3 +1,5 @@
+/** App_Footer */
+
 * {
     margin: 0rem;
     padding: 0rem;
@@ -10,5 +12,5 @@
     padding: 1rem;
     text-align: center;
     background-color: #131212;
-    color: #f3eeee;
+    color: #c1c1cf;;
 }
