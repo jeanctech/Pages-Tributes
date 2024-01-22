@@ -8,7 +8,7 @@
 #app-header{
     margin: 0rem;
     padding: 0rem;
-    background-color: #333;
+    background-color: #706f6f;
     color: #f5f5f5;
     display: flex;
     flex-direction: row;
@@ -19,7 +19,7 @@
 #header-container{
     margin: 0.5rem;
     padding: 0.5rem;
-    background-color: #333;
+    background-color: #706f6f;
     color: #f5f5f5;
     display: flex;
     flex-direction: row;
@@ -30,7 +30,7 @@
 #header-title{
     margin: 0rem;
     padding: 0rem;
-    background-color: #333;
+    background-color: #706f6f;
     color: #f5f5f5;
     display: flex;
 }
@@ -38,7 +38,7 @@
 #header-a{
     margin: 0.5rem;
     padding: 0.5rem;
-    background-color: #333;
+    background-color: #706f6f;
     color: #f5f5f5;
     text-decoration: none;
     display: flex;
@@ -50,7 +50,7 @@
 #header-nav{
     margin: 0.5rem;
     padding: 0.5rem;
-    background-color: #333;
+    background-color: #706f6f;
     color: #f5f5f5;
     display: flex;
     flex-direction: row;
@@ -61,7 +61,7 @@
 #nav-ul{
     margin: 0rem;
     padding: 0rem;
-    background-color: #333;
+    background-color: #706f6f;
     color: #f5f5f5;
     display: flex;
 }
@@ -69,7 +69,7 @@
 #nav-li{
     margin: 0rem;
     padding: 0rem;
-    background-color: #333;
+    background-color: #706f6f;
     color: #f5f5f5;
     display: flex;
 }
@@ -77,7 +77,7 @@
 #nav-a{
     margin: 0.5rem;
     padding: 0.5rem;
-    background-color: #333;
+    background-color: #706f6f;
     color: #f5f5f5;
     text-decoration: none;
     display: flex;
@@ -87,7 +87,7 @@
 }
 
 #nav-a:hover{
-    background-color: #3f3f61;
+    background-color: #5b5b72;
     color: #f5f5f5;
     border-radius: 0.5rem;
     -webkit-border-radius: 0.5rem;

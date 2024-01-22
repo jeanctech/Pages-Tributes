@@ -1,3 +1,4 @@
+import Favicon from "../Assets/Favicon.svg";
 import '../Styles/App_Header.css';
 
 function App_Header() {
@@ -8,6 +9,7 @@ function App_Header() {
           <h1 id="header-title">
             <a href="" id="header-a">Pages-Tributes</a>
           </h1>
+          <img src={Favicon} alt="" width={40}></img>
         </div>
         <div id="header-nav">
           <ul id="nav-ul">

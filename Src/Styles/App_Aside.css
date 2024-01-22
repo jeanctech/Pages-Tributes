@@ -21,7 +21,7 @@
 #aside_container_title{
     margin: 0.5rem;
     padding: 1rem;
-    background-color: #CBD8E6;
+    background-color: #cdd1d6;
     border: lavender solid 0.1rem;
     color: #2b2929;
     display: flex;
@@ -33,7 +33,7 @@
 #aside_container{
     margin: 0.5rem;
     padding: 1rem;
-    background-color: #CBD8E6;
+    background-color: #cdd1d6;
     border: lavender solid 0.1rem;
     color: #2b2929;
     display: flex;
@@ -55,7 +55,7 @@
 #aside_title{
     margin: 0rem;
     padding: 0.5rem;
-    background-color: #CBD8E6;
+    background-color: #cdd1d6;
     color: #160e32;
     display: flex;
     flex-direction: row;
