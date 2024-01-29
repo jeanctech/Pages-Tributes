@@ -1,13 +1,14 @@
-import '../Styles/App_Row.css';
+import '../Styles/App.css';
 
 function App_Row() {
   return (
     <>
-      <div id="app-row">
-        <div id="row_container">
-          <p id="row_title"><strong>- Origen</strong></p>
-          <br />
-          <p>
+      <div id="app-row" className="m-0 p-1 bg-slate-300 text-slate-800 flex flex-col ">
+        <div id="row_container" className="m-2 p-2 bg-slate-400 flex flex-col items-start justify-start rounded-lg">
+          <p id="row_title" className="m-0.5 p-0.5 font-bold text-2xl flex flex-col items-start justify-start ">
+            - Origen
+          </p>
+          <p className="m-0.5 p-0.5 flex flex-col items-start justify-start">
             Ante la necesidad de distribuir e intercambiar información acerca de
             sus investigaciones de una manera más efectiva, Berners-Lee
             desarrolló las ideas fundamentales que estructuran la web. Él y su
@@ -19,10 +20,10 @@ function App_Row() {
             Berners-Lee en el proyecto Xanadú (que propuso Ted Nelson) y el
             memex (de Vannevar Bush).
           </p>
-          <br />
-          <p id="row_title"><strong>- Historia</strong></p>
-          <br />
-          <p>
+          <p id="row_title" className="m-0.5 p-0.5 font-bold text-2xl flex flex-col items-start justify-start">
+            - Historia
+          </p>
+          <p className="m-0.5 p-0.5 flex flex-col items-start justify-start">
             Tim Berners-Lee nació en el sudoeste de Londres, Reino Unido, el 8
             de junio de 1955. Sus padres eran Conway Berners-Lee y Mary Lee
             Woods. Sus padres eran matemáticos británicos y formaron parte del
@@ -32,10 +33,10 @@ function App_Row() {
             primer ordenador comercial con programa almacenado desarrollado por
             la empresa Ferranti en marzo de 1951.
           </p>
-          <br />
-          <p id="row_title"><strong>- Acerca</strong></p>
-          <br />
-          <p>
+          <p id="row_title" className="m-0.5 p-0.5 font-bold text-2xl flex flex-col items-start justify-start">
+            - Acerca
+          </p>
+          <p className="m-0.5 p-0.5 flex flex-row items-start justify-start">
             Después de dejar el Cern, en 1980, se fue a trabajar a la empresa de
             John Poole Image Computer Systems Ltd., pero regresó al Cern otra
             vez en 1984. En 1989, el Cern era el nodo de Internet más grande de
@@ -50,10 +51,10 @@ function App_Row() {
             con Nextstep) y el primer servidor Web al que llamó httpd (HyperText
             Transfer Protocol daemon).
           </p>
-          <br />
-          <p id="row_title"><strong>- Conoce Mas</strong></p>
-          <br />
-          <p>
+          <p id="row_title" className="m-0.5 p-0.5 font-bold text-2xl flex flex-row items-start justify-start">
+            - Conoce Mas
+          </p>
+          <p className="m-0.5 p-0.5 flex flex-row items-start justify-start">
             El primer servidor Web se encontraba en el Cern y fue puesto en
             línea el 6 de agosto de 1991. Esto proporcionó una explicación sobre
             lo que era el World Wide Web, cómo uno podría tener un navegador y
