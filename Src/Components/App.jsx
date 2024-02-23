@@ -9,7 +9,7 @@ function App() {
     <>
       <div className="m-0 p-0 bg-slate-300 text-slate-800 ">
         <App_Header></App_Header>
-        <div className="flex flex-row justify-between items-center ">
+        <div id='app'>
           <App_Aside></App_Aside>
           <App_Row></App_Row>
         </div>

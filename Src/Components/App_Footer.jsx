@@ -4,7 +4,7 @@ import '../Styles/App.css';
 function App_Footer() {
   return (
     <>
-      <footer id="footer" className="m-0 p-1 bg-black text-slate-300 flex flex-col justify-center items-center ">
+      <footer id="footer" className="bg-black text-slate-300 ">
         <img src={Logotipo} alt="Logotipo-Jc" width={50} />
         <br />
         <span>

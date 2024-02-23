@@ -4,7 +4,7 @@ import '../Styles/App.css';
 function App_Header() {
   return (
     <>
-      <div id="app-header" className="m-0 p-1 bg-[#333] text-[#f8f8f8] flex justify-between items-center">
+      <div id="app-header" className="m-0 p-1 bg-[#333] text-[#f1f0f0] flex justify-between items-center">
         <div id="header-container" className="m-1 p-1 flex flex-row justify-center items-center">
           <h1 id="header-title" className="m-1 p-1 font-bold text-2xl">
             <a href="" id="header-a">Pages-Tributes</a>
@@ -35,7 +35,7 @@ function App_Header() {
             </li>
             <li id="nav-li" className="m-1 p-1 flex flex-row justify-center items-center">
               <a href="" id="nav-a" className="m-1 p-1 hover:bg-slate-500 hover:text-slate-200 hover:rounded-lg flex flex-row justify-center items-center">
-                Conoce Mas
+                Conoce
               </a>
             </li>
           </ul>
