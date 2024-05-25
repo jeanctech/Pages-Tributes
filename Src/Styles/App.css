@@ -10,7 +10,6 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
     box-sizing: border-box;
 }
-
 #app {
     margin: 0rem;
     padding: 0.5rem;
@@ -20,7 +19,6 @@
     justify-content: space-between;
     align-items: center;
 }
-
 #footer {
     margin: 0rem;
     padding: 0.5rem;
@@ -31,7 +29,6 @@
 }
 
 @media (min-width: 300px) and (max-width: 1000px) {
-
     #app-header,
     #header-container #header-a,
     #header-nav {
@@ -42,7 +39,6 @@
         justify-content: center;
         align-items: center;
     }
-
     #header-title {
         margin: 0rem;
         padding: 0.3rem;
@@ -51,7 +47,6 @@
         justify-content: center;
         align-items: center;
     }
-
     #app-nav,
     #nav-ul,
     #nav-li,
@@ -63,7 +58,6 @@
         justify-content: center;
         align-items: center;
     }
-
     #app {
         margin: 0rem;
         padding: 0rem;
@@ -72,8 +66,8 @@
         justify-content: center;
         align-items: center;
     }
-
-    #app_row, #row_container #row_title {
+    #app_row,
+    #row_container #row_title {
         margin: 0rem;
         padding: 0rem;
         display: flex;
@@ -81,8 +75,8 @@
         justify-content: center;
         align-items: center;
     }
-
-    #app_aside, #aside_container #aside_title {
+    #app_aside,
+    #aside_container #aside_title {
         margin: 0rem;
         padding: 0rem;
         display: flex;
@@ -90,7 +84,6 @@
         justify-content: center;
         align-items: center;
     }
-
     #footer {
         margin: 0rem;
         padding: 0.5rem;
