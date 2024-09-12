@@ -5,19 +5,17 @@ function App_Row() {
     <>
       <div
         id="app_row"
-        className="m-0 p-1 bg-[#383844] text-[#c7bfbf] flex flex-col "
-      >
+        className="m-1 p-1 bg-[#252525] text-[#f8f8f8] rounded-lg rounded-bg-[#4E4E4B]">
         <div
           id="row_container"
-          className="m-2 p-2 bg-[#404049] flex flex-col items-start justify-start rounded-lg"
-        >
+          className="m-1 p-1 flex flex-col justify-start items-start">
           <p
             id="row_title"
-            className="m-1 p-1 font-bold text-2xl flex flex-col items-start justify-start "
-          >
+            className="m-1 p-1 text-[#e6d32d] text-2xl font-bold">
             - Origen
           </p>
-          <p className="m-1 p-1 flex flex-col items-start justify-start">
+          <p className="m-1 p-1 text-pretty">
+            <br />
             Ante la necesidad de distribuir e intercambiar información acerca de
             sus investigaciones de una manera más efectiva, Berners-Lee
             desarrolló las ideas fundamentales que estructuran la web. Él y su
@@ -31,11 +29,10 @@ function App_Row() {
           </p>
           <p
             id="row_title"
-            className="m-1 p-1 font-bold text-2xl flex flex-col items-start justify-start"
-          >
+            className="m-1 p-1 text-[#e6d32d] text-2xl font-bold">
             - Historia
           </p>
-          <p className="m-1 p-1 flex flex-col items-start justify-start">
+          <p className="m-1 p-1 text-pretty">
             Tim Berners-Lee nació en el sudoeste de Londres, Reino Unido, el 8
             de junio de 1955. Sus padres eran Conway Berners-Lee y Mary Lee
             Woods. Sus padres eran matemáticos británicos y formaron parte del
@@ -47,11 +44,10 @@ function App_Row() {
           </p>
           <p
             id="row_title"
-            className="m-1 p-1 font-bold text-2xl flex flex-col items-start justify-start"
-          >
+            className="m-1 p-1 text-[#e6d32d] text-2xl font-bold">
             - Acerca
           </p>
-          <p className="m-1 p-1 flex flex-row items-start justify-start">
+          <p className="m-1 p-1 text-pretty">
             Después de dejar el Cern, en 1980, se fue a trabajar a la empresa de
             John Poole Image Computer Systems Ltd., pero regresó al Cern otra
             vez en 1984. En 1989, el Cern era el nodo de Internet más grande de
@@ -68,11 +64,10 @@ function App_Row() {
           </p>
           <p
             id="row_title"
-            className="m-1 p-1 font-bold text-2xl flex flex-row items-start justify-start"
-          >
+            className="m-1 p-1 text-[#e6d32d] text-2xl font-bold">
             - Conoce Mas
           </p>
-          <p className="m-1 p-1 flex flex-row items-start justify-start">
+          <p className="m-1 p-1 text-pretty">
             El primer servidor Web se encontraba en el Cern y fue puesto en
             línea el 6 de agosto de 1991. Esto proporcionó una explicación sobre
             lo que era el World Wide Web, cómo uno podría tener un navegador y

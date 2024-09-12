@@ -5,85 +5,46 @@ function App_Header() {
   return (
     <>
       <div
-        id="app-header"
-        className="m-0 p-1 bg-[#333] text-[#c7bfbf] flex justify-between items-center"
-      >
+        id="app_header"
+        className="m-0 p-1 bg-[#222222] text-[#f8f8f8]  flex flex-row justify-between items-center">
         <div
-          id="header-container"
-          className="m-1 p-1 flex flex-row justify-center items-center"
-        >
-          <h1 id="header-title" className="m-1 p-1 font-bold text-2xl">
-            <a href="" id="header-a">
+          id="header_container"
+          className="m-1 p-1 flex flex-row justify-center items-center">
+          <h1 id="header_title" className="m-1 p-1 text-2xl font-bold">
+            <a
+              href=""
+              id="header_a">
               Pages-Tributes
             </a>
           </h1>
-          <img src={Favicon} alt="Favicon" width={40}></img>
+          <img src={Favicon} alt="Favicon" width={40} className="m-0 p-0"></img>
         </div>
         <div
-          id="header-nav"
-          className="m-1 p-1 flex flex-row justify-center items-center"
-        >
-          <ul
-            id="nav-ul"
-            className="m-1 p-1 flex flex-row justify-center items-center"
-          >
-            <li
-              id="nav-li"
-              className="m-1 p-1 flex flex-row justify-center items-center"
-            >
-              <a
-                href=""
-                id="nav-a"
-                className="m-1 p-1 hover:bg-slate-500 hover:text-slate-200 hover:rounded-lg flex flex-row justify-center items-center"
-              >
+          id="header_nav"
+          className="m-1 p-1 flex flex-row justify-between items-center">
+          <ul id="nav_ul" className="m-1 p-1 flex flex-row">
+            <li id="nav_li" className="m-1 p-1">
+              <a href="" id="nav_a" className="m-1 p-1 font-semibold">
                 Inicio
               </a>
             </li>
-            <li
-              id="nav-li"
-              className="m-1 p-1 flex flex-row justify-center items-center "
-            >
-              <a
-                href=""
-                id="nav-a"
-                className="m-1 p-1 hover:bg-slate-500 hover:text-slate-200 hover:rounded-lg flex flex-row justify-center items-center "
-              >
+            <li id="nav_li" className="m-1 p-1">
+              <a href="" id="nav_a" className="m-1 p-1 font-semibold">
                 Origen
               </a>
             </li>
-            <li
-              id="nav-li"
-              className="m-1 p-1 flex flex-row justify-center items-center"
-            >
-              <a
-                href=""
-                id="nav-a"
-                className="m-1 p-1 hover:bg-slate-500 hover:text-slate-200 hover:rounded-lg flex flex-row justify-center items-center "
-              >
+            <li id="nav_li" className="m-1 p-1">
+              <a href="" id="nav_a" className="m-1 p-1 font-semibold">
                 Historia
               </a>
             </li>
-            <li
-              id="nav-li"
-              className="m-1 p-1 flex flex-row justify-center items-center"
-            >
-              <a
-                href=""
-                id="nav-a"
-                className="m-1 p-1 hover:bg-slate-500 hover:text-slate-200 hover:rounded-lg flex flex-row justify-center items-center "
-              >
+            <li id="nav_li" className="m-1 p-1">
+              <a href="" id="nav_a" className="m-1 p-1 font-semibold">
                 Acerca
               </a>
             </li>
-            <li
-              id="nav-li"
-              className="m-1 p-1 flex flex-row justify-center items-center"
-            >
-              <a
-                href=""
-                id="nav-a"
-                className="m-1 p-1 hover:bg-slate-500 hover:text-slate-200 hover:rounded-lg flex flex-row justify-center items-center"
-              >
+            <li id="nav_li" className="m-1 p-1">
+              <a href="" id="nav_a" className="m-1 p-1 font-semibold">
                 Conoce
               </a>
             </li>
