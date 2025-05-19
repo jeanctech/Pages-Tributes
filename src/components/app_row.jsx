@@ -5,13 +5,13 @@ function App_Row() {
     <>
       <div
         id="app_row"
-        className="m-1 p-1 bg-[#252525] text-[#f8f8f8] rounded-lg rounded-bg-[#4E4E4B]">
+        className="m-1 p-1 bg-[#1f1e1e] text-[#e0dcdc] rounded-lg rounded-bg-[#4E4E4B]">
         <div
           id="row_container"
           className="m-1 p-1 flex flex-col justify-start items-start">
           <p
             id="row_title"
-            className="m-1 p-1 text-[#e6d32d] text-2xl font-bold">
+            className="m-1 p-1 text-[#c9bb3d] text-2xl font-bold">
             - Origen
           </p>
           <p className="m-1 p-1 text-pretty">
@@ -29,7 +29,7 @@ function App_Row() {
           </p>
           <p
             id="row_title"
-            className="m-1 p-1 text-[#e6d32d] text-2xl font-bold">
+            className="m-1 p-1 text-[#c9bb3d] text-2xl font-bold">
             - Historia
           </p>
           <p className="m-1 p-1 text-pretty">
@@ -44,7 +44,7 @@ function App_Row() {
           </p>
           <p
             id="row_title"
-            className="m-1 p-1 text-[#e6d32d] text-2xl font-bold">
+            className="m-1 p-1 text-[#c9bb3d] text-2xl font-bold">
             - Acerca
           </p>
           <p className="m-1 p-1 text-pretty">
@@ -64,7 +64,7 @@ function App_Row() {
           </p>
           <p
             id="row_title"
-            className="m-1 p-1 text-[#e6d32d] text-2xl font-bold">
+            className="m-1 p-1 text-[#c9bb3d] text-2xl font-bold">
             - Conoce Mas
           </p>
           <p className="m-1 p-1 text-pretty">

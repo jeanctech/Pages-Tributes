@@ -6,18 +6,18 @@ function App_Aside() {
     <>
       <div
         id="app_aside"
-        className="m-1 p-1 bg-[#252525] text-[#f8f8f8] rounded-lg rounded-bg-[#4E4E4B] flex flex-col justify-center items-center">
+        className="m-1 p-1 bg-[#1f1e1e] text-[#e0dcdc] rounded-lg rounded-bg-[#4E4E4B] flex flex-col justify-center items-center">
         <div
           id="div_container"
-          className="m-1 p-1 rounded-lg bg-[#303030]">
+          className="m-0.5 p-0.5 rounded-lg bg-[#252424]">
           <img
             src={Images}
-            width={350}
+            width={355}
             id="aside_img">
           </img>
           <h2
             id="aside_title"
-            className="m-1 p-1 text-[#e6d32d] text-2xl font-bold flex flex-col justify-center items-center"
+            className="m-1 p-1 text-[#c9bb3d] text-2xl font-bold flex flex-col justify-center items-center"
           >
             Tim Berners-Lee
           </h2>
@@ -39,7 +39,7 @@ function App_Aside() {
           </p>
           <h3
             id="aside_title"
-            className="m-1 p-1 text-[#e6d32d] text-2xl font-bold"
+            className="m-1 p-1 text-[#c9bb3d] text-2xl font-bold"
           >
             - Inicio
           </h3>

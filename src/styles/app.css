@@ -20,25 +20,33 @@
 
 #nav_a:hover,
 #header_a:hover {
-    color: #e6d32d;
+    color: #c9bb3d;
 }
 
 #app_aside, #div_container, #aside_img {
-    border: #353535 solid 0.2rem;
+    border: #1f1d1d solid 0.2rem;
     border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
 }
 
 #app_row {
-    border: #353535 solid 0.2rem;
+    border: #1f1d1d solid 0.2rem;
     border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
 }
 
 #app_footer {
     margin: 0rem;
-    padding: 0.5rem;
+    padding: 1rem;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -121,12 +129,11 @@
     }
 
     #app_footer {
-        margin: 0rem;
-        padding: 0.2rem;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    margin: 0rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     }
 }

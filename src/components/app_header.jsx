@@ -6,23 +6,23 @@ function App_Header() {
     <>
       <div
         id="app_header"
-        className="m-0 p-1 bg-[#222222] text-[#f8f8f8]  flex flex-row justify-between items-center">
+        className="m-0 p-1 bg-[#1f1e1e] text-[#e0dcdc]  flex flex-row justify-between items-center">
         <div
           id="header_container"
           className="m-1 p-1 flex flex-row justify-center items-center">
-          <h1 id="header_title" className="m-1 p-1 text-2xl font-bold">
+          <h1 id="header_title" className="m-1 p-1 text-3xl font-bold">
             <a
               href=""
               id="header_a">
               Pages-Tributes
             </a>
           </h1>
-          <img src={Favicon} alt="Favicon" width={40} className="m-0 p-0"></img>
+          <img src={Favicon} alt="Favicon" width={42} className="m-0 p-0"></img>
         </div>
         <div
           id="header_nav"
           className="m-1 p-1 flex flex-row justify-between items-center">
-          <ul id="nav_ul" className="m-1 p-1 flex flex-row">
+          <ul id="nav_ul" className="m-1 p-1 flex flex-row text-[17px]">
             <li id="nav_li" className="m-1 p-1">
               <a href="" id="nav_a" className="m-1 p-1 font-semibold">
                 Inicio
